@@ -45,7 +45,7 @@ jobs:
         # This ID should come from the CI job you saved in ACCELQ application
         jobId: "11"
         # Run Params(optional) should be of the form (Customer Name=John Todd & Customer Id=232)
-        runParam: "{\"User name\": \"qbankadmin\", \"Pswd\": \"pass123\", \"App URL\": \"qbank.accelq.com\"}"
+        runParam: '{"User name": "qbankadmin", "Pswd": "pass123", "App URL": "qbank.accelq.com"}'
         # Proxy Host (optional)
 #         proxyHost: "133bce11a49c.ngrok.io"
 #         # Proxy Port (optional)
